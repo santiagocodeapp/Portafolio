@@ -1,5 +1,6 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 from django.core.mail import send_mail
+from django.core.files import File
 
 # Create your views here.
 
